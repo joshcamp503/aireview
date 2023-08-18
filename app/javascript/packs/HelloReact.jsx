@@ -6,11 +6,4 @@ const HelloReact = ({ name }) => {
   )
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <HelloReact name="React" />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
-
 export default HelloReact
