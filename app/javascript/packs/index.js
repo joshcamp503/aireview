@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import HelloReact from './HelloReact'
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-
-root.render(<HelloReact name="React" />)
+root.render(
+  <App />
+)
 
